@@ -7,9 +7,7 @@
     }
 ?>
 
-<!-- Define que el documento esta bajo el estandar de HTML 5 -->
 <!doctype html>
-<!-- Representa la raíz de un documento HTML o XHTML. Todos los demás elementos deben ser descendientes de este elemento. -->
 <html lang="es">
     
     <head>
@@ -27,7 +25,6 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css?family=Overpass&display=swap" rel="stylesheet">
         
-        <!-- Link hacia el archivo de estilos css -->
         <link rel="stylesheet" href="login.css">
         
         <style type="text/css">

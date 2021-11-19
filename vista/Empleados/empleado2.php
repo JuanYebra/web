@@ -21,9 +21,9 @@
 
           <section>
             <article>
-                <h1>Departamentos</h1>
-                <h2> Agrega todos los departamentos de tu empresa, después podrás asignarlos a cada empleado.</h2><br/><br/>
-                <button type="button" class="buttonlink" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">+ Agregar departamento</button>
+                <h1>Listado de empleados</h1>
+                <h2>Aquí podrás agregar, editar o eliminar a tus empleados.</h2><br/><br/>
+                <button type="button" class="buttonlink" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">+ Agregar empleado</button>
             </article><br/><br/><br/>
 
 
@@ -31,9 +31,9 @@
                 <thead>
                   <tr>
                     
+                    <th scope="col">Nombre</th>
                     <th scope="col">Departamento</th>
-                    <th scope="col">Responsable</th>
-                    <th scope="col">Usuario</th>
+                    <th scope="col">Horario</th>
                   </tr>
                 </thead>
                 <tbody>

@@ -9,7 +9,7 @@ if(!isset($resultado)){
 
 <link rel="stylesheet" href="../css/cabecera.css">
     <input type="checkbox" id="navigation" />
-    <label for="navigation">
+    <label class="labelmenu" for="navigation">
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
             <line x1="4" y1="6" x2="20" y2="6" />
@@ -32,7 +32,7 @@ if(!isset($resultado)){
             <li>
                 <br><br><h2>Empleados</h2>
                 <li>
-                    <a href="../Empleados/Listado_empleados.php">Lista de empleados</a>
+                    <a href="../Empleados/empleado2.php">Lista de empleados</a>
                     <a href="../Empleados/Lista_asistencia">Lista de asistencia</a>
                 </li>
             </li>

@@ -63,8 +63,13 @@ nav a{
 
 nav a:hover{
     background:#071d27;
+    color: white;
+    text-decoration:none;
 }
-label{
+
+a:hover{color:white}
+
+.labelmenu{
     display:block;
     font-family:'helvetica neue', helvetica, arial, sans-serif;
     font-weight:700;
