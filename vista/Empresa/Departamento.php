@@ -71,24 +71,26 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
+       <!-- <form method="POST" action="../../models/Guardar_dep.php"> -->
         <form>
           <div class="mb-3">
             <label for="recipient-name" class="col-form-label">Nombre de departamento:</label>
-            <input type="text" class="form-control" id="nombredep">
+            <input type="text" class="form-control" id="nombredep" name="nombredep">
           </div>
           <div class="mb-3">
             <label for="recipient-name" class="col-form-label">Responsable:</label>
-            <input type="text" class="form-control" id="responsable">
+            <input type="text" class="form-control" id="responsable" name="responsable">
           </div>
           <div class="mb-3">
             <label for="recipient-name" class="col-form-label">Usuario:</label>
-            <input type="text" class="form-control" id="usuario">
+            <input type="text" class="form-control" id="usuario" name="usuario">
           </div>
-        </form>
-      </div>
-      <div class="modal-footer">
+          <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-        <button type="button" class="btn btn-primary">Registrar</button>
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Registrar</button>
+        <!--<input type="submit" value="Registrar">-->
+      </div>
+        </form>
       </div>
     </div>
   </div>
@@ -97,3 +99,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
+

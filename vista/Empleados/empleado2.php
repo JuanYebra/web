@@ -67,23 +67,16 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Nuevo departamento</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Nuevo empleado</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <form>
           <div class="mb-3">
-            <label for="recipient-name" class="col-form-label">Nombre de departamento:</label>
+            <label for="recipient-name" class="col-form-label">Nombre(s):</label>
             <input type="text" class="form-control" id="nombredep">
           </div>
-          <div class="mb-3">
-            <label for="recipient-name" class="col-form-label">Responsable:</label>
-            <input type="text" class="form-control" id="responsable">
-          </div>
-          <div class="mb-3">
-            <label for="recipient-name" class="col-form-label">Usuario:</label>
-            <input type="text" class="form-control" id="usuario">
-          </div>
+      
         </form>
       </div>
       <div class="modal-footer">
