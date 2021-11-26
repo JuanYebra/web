@@ -134,4 +134,9 @@ body {
 
 .alert{
     color: #ee2525;
+    text-align: center;
+}
+
+.pa{
+    text-align: center;
 }

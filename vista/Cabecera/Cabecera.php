@@ -1,10 +1,6 @@
 <?php
 include '../../Controller/conexion.php';
-include '../../models/Usuario.php';
-$resultado = $_SESSION['nombre_usuario'];
-if(!isset($resultado)){
-    header("Location:index.php");
-}
+
 ?>
 
 <link rel="stylesheet" href="../css/cabecera.css">

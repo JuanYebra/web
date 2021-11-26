@@ -1,23 +1,18 @@
-<?php
-    session_start();
-    class Conectar{
-            protected $dbh;
-            protected function Conexion (){
-                try{
-                    $conectar = $this -> dbh = new PDO("mysql:local=localhost;dbname=Test_dostop","root","");
-                    return $conectar;
-                }catch (Exception $e){
-                    print "Error BD: " . $e -> getMessage() . "<br/>";
-                    die();
-                }
+<?php  
+	$contrasena = '';
+	$usuario = 'root';
+	$nombrebd= 'nota';
 
-            }
-            public function set_names() {
-                return $this -> dbh->query ("SET NAMES 'utf8'");
-            }
+	try {
+		$bd = new PDO(
+			'mysql:host=localhost;
+			dbname='.$nombrebd,
+			$usuario,
+			$contrasena,
+			array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8")
+		);
+	} catch (Exception $e) {
+		echo "Error de conexión ".$e->getMessage();
+	}
 
-            public function ruta(){
-                return "http://localhost/Portalweb/";
-            }
-    }
 ?>
