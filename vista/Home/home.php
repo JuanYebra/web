@@ -36,6 +36,7 @@ include '../Cabecera/Cabecera.php';
             </section>
         </div>
         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <!--sweetalert-->
    <script src="../js/swetalert.js"></script>
     </body>
 </html>

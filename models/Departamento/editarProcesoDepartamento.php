@@ -13,6 +13,7 @@
 	$resultado = $sentencia->execute([$departamento2,$responsable2,$usuario2, $id2]);
 
 	if ($resultado === TRUE) {
+		
 		header('Location: ../../vista/Empresa/Departamento.php');
 	}else{
 		echo "Error";
