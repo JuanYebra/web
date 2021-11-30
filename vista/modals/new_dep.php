@@ -23,20 +23,20 @@
 
                                 <div class="mb-3">
                                     <label for="recipient-name" class="col-form-label">Nombre de departamento:</label>
-                                    <input type="text" class="form-control" id="nombredep" name="nombredep">
+                                    <input type="text" class="form-control" id="nombredep" name="nombredep" Required>
                                 </div>
                                 <div class="mb-3">
                                     <label for="recipient-name" class="col-form-label">Responsable:</label>
-                                    <input type="text" class="form-control" id="responsable" name="responsable">
+                                    <input type="text" class="form-control" id="responsable" name="responsable" required>
                                 </div>
                                 <div class="mb-3">
                                     <label for="recipient-name" class="col-form-label">Usuario:</label>
-                                    <input type="text" class="form-control" id="usuario" name="usuario">
+                                    <input type="text" class="form-control" id="usuario" name="usuario" required>
                                 </div>
                                 <input type="hidden" name="oculto" value="1">
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                                    <input type="submit" class="btn btn-secondary" data-bs-dismiss="modal" value="Registrar">
+                                    <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Registrar</button>
 
                                 </div>
                             </form>
@@ -45,8 +45,5 @@
                     </div>
                 </div>
             </div>
-
-
-
 </body>
 </html>

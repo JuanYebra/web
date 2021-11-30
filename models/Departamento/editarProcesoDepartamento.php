@@ -15,7 +15,6 @@
 	if ($resultado === TRUE) {
 		
 		header('Location: ../../vista/Empresa/Departamento.php');
-	}else{
-		echo "Error";
 	}
 ?>
+

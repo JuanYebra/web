@@ -73,5 +73,3 @@ input[type="checkbox"]:checked ~ section{
     -o-transform:translate3d(260px, 0, 0);
     transform:translate3d(260px, 0, 0);
 }
-
-

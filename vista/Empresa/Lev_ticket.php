@@ -6,20 +6,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Levantar ticket</title>
         <link rel="stylesheet" href="../css/style.css">
-
-        <!-- Bootstrap 5 CDN Link -->
-    <lin<link href="../css/bootstrap.min.css" rel="stylesheet" >
-
+    <!-- Bootstrap 5 CDN Link -->
+    <<link href="../css/bootstrap.min.css" rel="stylesheet" >
     <!-- Summernote CSS - CDN Link -->
     <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
     <!-- //Summernote CSS - CDN Link -->
-
-
     </head>
     <body>
         <div class="wrapper">
-
             <?php
             include '../Cabecera/Cabecera.php';
             ?>
@@ -35,14 +30,11 @@
                                             <h3>Aqui agrega tus comentarios</h3>
                                         </div>
                                         <div class="card-body">
-
                                             <form action="#">
                                                 <div class="mb-3">
-                                                    
                                                     <textarea name="description" id="your_summernote" class="form-control" rows="4"></textarea>
                                                 </div>
                                             </form>
-
                                         </div>
                                     </div>
                                 </div>
