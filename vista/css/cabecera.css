@@ -4,13 +4,7 @@ nav{
     left:0;
     width:250px;
     height:100%;
-    margin:0 0 0 -250px;
-    -moz-transition:all 200ms ease-in;
-    -webkit-transition:all 200ms ease-in;
-    -o-transition:all 200ms ease-in;
-    transition:all 200ms ease-in;
-    background:r#0b2b3a;
-
+    
 }
 nav ul{
     width:250px;
@@ -20,20 +14,14 @@ nav ul{
     list-style:none;
     background:#0b2b3a;
     overflow:hidden;
-
-
-    
-
 }
 nav h1{
-    font-family:'helvetica neue', helvetica, arial, sans-serif;
     color:#fff;
     font-size: 40px;
     padding: 9px 30px;
     
 }
 nav h2{
-    font-family:'helvetica neue', helvetica, arial, sans-serif;
     font-size:20px;
     font-weight: 600;
     color:#fff;
@@ -42,7 +30,6 @@ nav h2{
 }
 
 nav p{
-    font-family:'helvetica neue', helvetica, arial, sans-serif;
     font-size:20px;
     font-weight: 600;
     color:#fff;
@@ -51,14 +38,13 @@ nav p{
 
 nav a{
     color:#fff;
-    font-size:13px;
-    font-family:'helvetica neue', helvetica, arial, sans-serif;
+    font-size:15px;
     text-decoration:none;
     display:block;
     padding:5px 30px;
-    font-weight:300;
+    font-weight:400;
     letter-spacing:2px;
-    border-bottom:1px solid #333;
+    
 }
 
 nav a:hover{
@@ -71,7 +57,6 @@ a:hover{color:white}
 
 .labelmenu{
     display:block;
-    font-family:'helvetica neue', helvetica, arial, sans-serif;
     font-weight:700;
     background:#0b2b3a;
     width:30px;
@@ -84,10 +69,5 @@ a:hover{color:white}
     position:absolute;
     top: 8px;
     left: 0;
-    -moz-transition:all 200ms ease-in;
-    -webkit-transition:all 200ms ease-in;
-    -o-transition:all 200ms ease-in;
-    transition:all 200ms ease-in;
-    z-index:500;
     
 }

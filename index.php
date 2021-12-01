@@ -11,7 +11,7 @@ if (isset($_SESSION['nombre'])) {
         <meta charset="utf-8">
         <title> Formulario de Acceso </title>    
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="login/login.css">
         <link href="vista/css/bootstrap.min.css" rel="stylesheet" >
 	<link rel="stylesheet" href="vista/css/editar.css">
         <style type="text/css">
@@ -57,7 +57,7 @@ if (isset($_SESSION['nombre'])) {
                         <?php
                     }
                     ?>
-                    <form id="login_form" action="loginProceso.php" method="post" >
+                    <form id="login_form" action="login/loginProceso.php" method="post" >
                         <input type="text" id="correo_usuario" name="correo_usuario" placeholder="Correo" required>
 
                         <input type="password" placeholder="Contraseña" id="pass_usuario" name="pass_usuario" required>

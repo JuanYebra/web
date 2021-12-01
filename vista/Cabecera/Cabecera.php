@@ -1,22 +1,23 @@
-<?php
-include '../../Controller/conexion.php';
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/cabecera.css">
 
-?>
+    <title>Document</title>
+</head>
+<body>
+<nav id="sidebar" class="sidebar-wrapper">
 
-<link rel="stylesheet" href="../css/cabecera.css">
-    <input type="checkbox" id="navigation" />
-    <label class="labelmenu" for="navigation">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <line x1="4" y1="6" x2="20" y2="6" />
-            <line x1="4" y1="12" x2="20" y2="12" />
-            <line x1="4" y1="18" x2="20" y2="18" />
-          </svg>
-    </label>
-    <nav>
-        <ul>
-            <li>
+<ul>
+            <div class="sidebar-brand">
                 <h1>Dostop</h1>
+                <div id="close-sidebar">
+          <i class="fas fa-times"></i>
+        </div>
+</div>
                 <br><h2>Empresa</h2>
                 <li>
                     <a href="../Empresa/Dato_empresa.php">Datos de la empresa</a>
@@ -28,7 +29,7 @@ include '../../Controller/conexion.php';
             <li>
                 <br><br><h2>Empleados</h2>
                 <li>
-                    <a href="../Empleados/empleado2.php">Lista de empleados</a>
+                    <a href="../Empleados/Listado_empleados.php">Lista de empleados</a>
                     <a href="../Empleados/Lista_asistencia">Lista de asistencia</a>
                 </li>
             </li>
@@ -43,11 +44,10 @@ include '../../Controller/conexion.php';
                 <br><br><h2>Ayuda</h2>
                 <li>
                     <a href="">Videos</a>
-                    <a href="../cerrars.php">Cerrar sesion</a>
+                    <a href="../cerrar.php">Cerrar sesion</a>
                 </li>
             </li>
-        </ul>
-    </nav>
-
-     
- 
+        </ul>   
+  </nav>
+</body>
+</html>
