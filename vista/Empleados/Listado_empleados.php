@@ -20,7 +20,13 @@
     <div class="container-fluid">
      <!---------------------------------------contenido-------------------------------------------------------------------->
         <?php
+                    session_start();
+
             include_once '../Cabecera/cabecera.php';
+            include_once '../../Controller/conexion.php';
+            $sentencia = $bd->query("SELECT departamento FROM departamento;");
+            $departamentos = $sentencia->fetchAll(PDO::FETCH_OBJ);
+
         ?>
         
 
@@ -31,18 +37,23 @@
                 <button type="button" class="buttonlink" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">+ Agregar empleado</button>
             </article><br/><br/><br/>
 
+
           <div>
           <label for="recipient-name" >Buscar :</label>
         		<input type="text" name="buscar" >
             <label for="recipient-name" >Departamento :</label>
             <input list="browsers">
             <datalist id="browsers">
-              <option value="Internet Explorer">
-              <option value="Firefox">
-              <option value="Google Chrome">
-              <option value="Opera">
-              <option value="Safari">
+            <?php
+foreach ($departamentos as $dato) {
+          ?>
+              <option value="<?php echo $dato->departamento; ?>">
+              
+          <?php
+              }
+          ?>
             </datalist>
+
           </div>
             <table class="table table-striped">
                 <thead>

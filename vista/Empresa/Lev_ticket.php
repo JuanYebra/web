@@ -14,6 +14,7 @@
   </a>
 
   <main class="page-content">
+      
     <div class="container-fluid">
      <!---------------------------------------contenido-------------------------------------------------------------------->
         <?php
@@ -40,7 +41,11 @@
                         </div>
                     </div>
                 </div>
+            </div><br/>
+            <div>
+            <button type="button" class="buttonlink" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >Enviar ticket</button>
             </div>
+
                         
 
      <!---------------------------------------fin contenido-------------------------------------------------------------------->

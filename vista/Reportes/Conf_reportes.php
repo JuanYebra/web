@@ -22,6 +22,45 @@
         
             <h1>Configurar reportes automáticos</h1>
             <h2>Elige cuando quieres recibir de manera automatica los reportes de asistencia</h2><br/><br/>
+            <form>
+              <fieldset>
+                  <legend>Frecuencia: </legend>
+                  <label>
+                    <input type="radio" name="color" value="diario"> Diario
+                  </label>
+                  <label>
+                      <input type="radio" name="color" value="semanal"> Semanal
+                  </label>
+                  <label>
+                      <input type="radio" name="color" value="quincenal"> Quincenal
+                  </label>
+              </fieldset><br/>
+              <fieldset>
+                  <legend>Dia de la semana: </legend>
+                  <label>
+                      <input type="radio" name="numero" value="lunes">  Lunes
+                  </label>
+                  <label>
+                      <input type="radio" name="numero" value="martes"> Martes
+                  </label>
+                  <label>
+                      <input type="radio" name="numero" value="miercoles"> Miercoles
+                  </label>
+                  <label>
+                      <input type="radio" name="numero" value="jueves"> Jueves
+                  </label>
+                  <label>
+                      <input type="radio" name="numero" value="viernes"> Viernes
+                  </label>
+                  <label>
+                      <input type="radio" name="numero" value="sdabado"> Sabado
+                  </label>
+                  <label>
+                      <input type="radio" name="numero" value="domingo"> Domingo
+                  </label>
+              </fieldset>
+            </form><br/>
+            <button type="button" class="buttonlink" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >Generar reporte</button>
 
      <!---------------------------------------fin contenido-------------------------------------------------------------------->
 
