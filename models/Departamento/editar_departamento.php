@@ -17,6 +17,9 @@
 		echo "Error en el sistema";
 	}
 ?>
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,6 +27,7 @@
 	<meta charset="utf-8">
 	<link href="../../vista/css/bootstrap.min.css" rel="stylesheet" >
 	<link rel="stylesheet" href="../../vista/css/editar.css">
+
 </head>
 <body>
 <!----------------------Inputs------------------------------------------------------------------------------->
@@ -52,6 +56,9 @@
 
 				<button type="button" class="btn btn-secondary" onclick=" location.href='../../vista/Empresa/Departamento.php'">Cancelar</button>
 				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Guardar</button>
+				<button type="button" onclick="alertedit();" id="edit" >newedit</button>
+
+
 
 				<!--modal-->
 				<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -96,6 +103,19 @@
 		</form>
 <!--------------------Fin inputs----------------------------------------------------------------------------------->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script >
+	function alertedit (){
+			swal({
+			title:'¿Deseas guardar los cambios realizados ?' ,
+			icon: "warning",
+			buttons: true,
+			buttons: ["Cancelar", "Guardar"],
+		});
+	}
+</script>
+
 </body>
 </html>
 

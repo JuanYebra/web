@@ -2,10 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"crossorigin="anonymous">
-    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/contenido.css">
-    <link href="../css/bootstrap.min.css" rel="stylesheet" >
+    <title>Datos de la empresa</title>
+    <?php require_once("../head/head.php") ?>
 </head>
 <body>
 <div class="page-wrapper chiller-theme toggled">
@@ -30,6 +28,7 @@
                 At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
             </p>
         </article>
+        <a href="Departamento.php" class="btn btn-default buttons-pdf buttons-html5 " tabindex="0" aria-controls="departamento_data" > cefewfwe</a>
 
 
      <!---------------------------------------fin contenido-------------------------------------------------------------------->
